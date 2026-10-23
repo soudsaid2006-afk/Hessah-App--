@@ -231,22 +231,21 @@ html[data-step="3"] .bl3{opacity:.34}
   </section>
 
   <div class="prog" id="prog"><div class="prog-in">
-    <div class="segs"><i id="g1" class="on"></i><i id="g2" class="now"></i><i id="g3" class=""></i></div>
-    <div class="ptxt"><b id="pstep">الخطوة 2 من 3</b><span id="pname">اختر المجموعة</span></div>
+    <div class="segs"><i id="g1" class="now"></i><i id="g2" class=""></i><i id="g3" class=""></i></div>
+    <div class="ptxt"><b id="pstep">الخطوة 1 من 3</b><span id="pname">اختر الصف</span></div>
   </div></div>
 
   <noscript><p class="nojs">لتفعيل الاختيار والحجز افتح الصفحة في متصفح (Safari أو Chrome) وليس في المعاينة.</p></noscript>
   <main class="steps">
-    <section class="sec done" id="s1">
-      <div class="sh"><div class="num"><span>1</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></div><div><div class="st">اختر المادة</div><div class="ss">المادة: فيزياء</div></div></div>
-      <div class="chips" id="subjects" role="group" aria-label="المادة"><button type="button" class="chip" aria-pressed="true">فيزياء</button></div>
+    <section class="sec cur" id="s1">
+      <div class="sh"><div class="num"><span>1</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></div><div><div class="st">اختر الصف</div><div class="ss">الصف الدراسي</div></div></div>
+      <div class="chips" id="subjects" role="group" aria-label="الصف"><button type="button" class="chip" aria-pressed="false">الصف الأول</button><button type="button" class="chip" aria-pressed="false">الصف العاشر</button></div>
     </section>
 
-    <section class="sec cur" id="s2">
+    <section class="sec pend" id="s2">
       <div class="sh"><div class="num"><span>2</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></div><div><div class="st">اختر المجموعة</div><div class="ss">اليوم والوقت المناسب لك</div></div></div>
-      <div class="chips" id="grades" role="group" aria-label="الصف"><button type="button" class="chip" aria-pressed="true">الكل</button><button type="button" class="chip" aria-pressed="false">الصف الأول</button><button type="button" class="chip" aria-pressed="false">الصف العاشر</button></div>
-      <div id="groups" role="radiogroup" aria-label="المجموعة" style="display:flex;flex-direction:column;gap:10px"><label class="card"><input type="radio" name="grp"><span class="rd"></span><div class="inf"><div class="nmrow"><div class="nm">فيزياء 1</div><span class="pill">متبقي 15 مقعداً</span></div><div class="meta"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg><i style="font-style: normal;">الأحد</i></span><span class="time"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg><i style="font-style: normal;">4:00 م</i></span><span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"></path><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"></path></svg><i style="font-style: normal;">الصف الأول</i></span></div></div></label><label class="card"><input type="radio" name="grp"><span class="rd"></span><div class="inf"><div class="nmrow"><div class="nm">فيزياء 3</div><span class="pill low">متبقي 7 مقاعد</span></div><div class="meta"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg><i style="font-style: normal;">الأحد</i></span><span class="time"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg><i style="font-style: normal;">4:30 م</i></span><span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"></path><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"></path></svg><i style="font-style: normal;">الصف الأول</i></span></div></div></label><label class="card"><input type="radio" name="grp"><span class="rd"></span><div class="inf"><div class="nmrow"><div class="nm">فيزياء 2</div><span class="pill">متبقي 15 مقعداً</span></div><div class="meta"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg><i style="font-style: normal;">الإثنين</i></span><span class="time"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg><i style="font-style: normal;">4:30 م</i></span><span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"></path><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"></path></svg><i style="font-style: normal;">الصف العاشر</i></span></div></div></label></div>
-    </section>
+      <div class="chips hidden" id="grades" role="group" aria-label="الصف"></div>
+      <div id="groups" role="radiogroup" aria-label="المجموعة" style="display:flex;flex-direction:column;gap:10px"><div class="empty">اختر الصف أولاً لتظهر المجموعات المتاحة</div></div></section>
 
     <section class="sec pend" id="s3">
       <div class="sh"><div class="num"><span>3</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></div><div><div class="st">بيانات الطالب</div><div class="ss">للتواصل وتأكيد الحجز</div></div><span class="last">الخطوة الأخيرة</span></div>
@@ -265,8 +264,8 @@ html[data-step="3"] .bl3{opacity:.34}
   <div class="foot">منصة حصة · سلطنة عُمان</div>
 
   <div class="bar">
-    <div class="sum" id="sumbox"><span>مجموعتك المختارة</span><b id="summary">لم تختر مجموعة بعد</b></div>
-    <button class="go" id="go" type="button" disabled><span id="goT">اختر المجموعة</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+    <div class="sum" id="sumbox"><span>مجموعتك المختارة</span><b id="summary">لم تختر صفاً بعد</b></div>
+    <button class="go" id="go" type="button" disabled><span id="goT">اختر الصف</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
   </div>
 </div>
 
@@ -298,7 +297,7 @@ const GROUPS = [
 async function submitBooking(payload){ console.log("booking", payload); return true; }
 
 const $ = id => document.getElementById(id);
-const state = {subject:null, grade:"الكل", group:null};
+const state = {grade:null, group:null};
 const uniq = a => [...new Set(a)];
 const seatsText = n => n===1?"متبقي مقعد واحد":n===2?"متبقي مقعدان":n<=10?`متبقي ${n} مقاعد`:`متبقي ${n} مقعداً`;
 const I = {
@@ -319,16 +318,12 @@ function chipRow(el, items, current, onPick){
 function setStep(id, s){ const e=$(id); e.classList.remove("done","cur","pend"); e.classList.add(s); }
 
 function render(){
-  const subjects = uniq(GROUPS.map(g=>g.subject));
-  if(!state.subject) state.subject = subjects[0];
-  chipRow($("subjects"), subjects, state.subject, v=>{state.subject=v; state.grade="الكل"; state.group=null; render();});
-  const inSub = GROUPS.filter(g=>g.subject===state.subject);
-  const grades = ["الكل", ...uniq(inSub.map(g=>g.grade))];
-  chipRow($("grades"), grades, state.grade, v=>{state.grade=v; if(state.group && v!=="الكل" && state.group.grade!==v) state.group=null; render();});
-  $("grades").classList.toggle("hidden", grades.length<3);
-  const list = inSub.filter(g=>state.grade==="الكل"||g.grade===state.grade);
+  const gradeList = uniq(GROUPS.map(g=>g.grade));
+  chipRow($("subjects"), gradeList, state.grade, v=>{state.grade=v; state.group=null; render(); nextStep("s2",.35);});
+  $("grades").replaceChildren(); $("grades").classList.add("hidden");
+  const list = GROUPS.filter(g=>g.grade===state.grade);
   const box=$("groups"); box.replaceChildren();
-  if(!list.length){ const e=document.createElement("div"); e.className="empty"; e.textContent="لا توجد مجموعات متاحة لهذا الاختيار"; box.appendChild(e); }
+  if(!list.length){ const e=document.createElement("div"); e.className="empty"; e.textContent=state.grade?"لا توجد مجموعات متاحة لهذا الصف":"اختر الصف أولاً لتظهر المجموعات المتاحة"; box.appendChild(e); }
   list.forEach(g=>{
     const sel = state.group && state.group.id===g.id;
     const l=document.createElement("label"); l.className="card"+(sel?" sel":"");
@@ -337,21 +332,21 @@ function render(){
     const m=l.querySelectorAll(".meta i"); m[0].textContent=g.day; m[1].textContent=g.time; m[2].textContent=g.grade;
     m.forEach(x=>x.style.fontStyle="normal");
     l.querySelector(".pill").textContent=seatsText(g.seats);
-    l.querySelector("input").onchange=()=>{state.group=g; render(); nextStep();};
+    l.querySelector("input").onchange=()=>{state.group=g; render(); nextStep("s3",.55);};
     box.appendChild(l);
   });
-  const has=!!state.group;
-  setStep("s1","done"); setStep("s2", has?"done":"cur"); setStep("s3", has?"cur":"pend");
-  const cur = has?3:2;
+  const hasSub=!!state.grade, has=!!state.group;
+  setStep("s1", hasSub?"done":"cur"); setStep("s2", !hasSub?"pend":(has?"done":"cur")); setStep("s3", has?"cur":"pend");
+  const cur = !hasSub?1:(has?3:2);
   document.documentElement.dataset.step=cur; document.documentElement.style.setProperty("--step",cur);
   ["g1","g2","g3"].forEach((id,i)=>{ $(id).className = i+1<cur?"on":(i+1===cur?"now":""); });
-  $("pstep").textContent=`الخطوة ${cur} من 3`; $("pname").textContent = has?"بيانات الطالب":"اختر المجموعة";
-  $("summary").textContent = has ? `${state.group.name} · ${state.group.day} ${state.group.time}` : "لم تختر مجموعة بعد";
+  $("pstep").textContent=`الخطوة ${cur} من 3`; $("pname").textContent = ["اختر الصف","اختر المجموعة","بيانات الطالب"][cur-1];
+  $("summary").textContent = has ? `${state.group.name} · ${state.group.day} ${state.group.time}` : (hasSub ? "لم تختر مجموعة بعد" : "لم تختر صفاً بعد");
   $("sumbox").classList.toggle("ready", has);
-  $("s1").querySelector(".ss").textContent = "المادة: "+state.subject;
+  $("s1").querySelector(".ss").textContent = hasSub ? state.grade : "الصف الدراسي";
   $("s2").querySelector(".ss").textContent = has ? `${state.group.name} · ${state.group.day} ${state.group.time}` : "اليوم والوقت المناسب لك";
   $("go").disabled=!has;
-  $("goT").textContent = has ? "تقديم طلب الحجز" : "اختر المجموعة";
+  $("goT").textContent = has ? "تقديم طلب الحجز" : (hasSub ? "اختر المجموعة" : "اختر الصف");
 }
 
 function validate(){
@@ -376,7 +371,7 @@ $("go").onclick = async ()=>{
   $("booking").classList.add("hidden"); $("done").classList.remove("hidden"); scrollTo(0,0);
 };
 $("again").onclick=()=>{
-  ["n","p","t"].forEach(i=>$(i).value=""); state.group=null; state.grade="الكل";
+  ["n","p","t"].forEach(i=>$(i).value=""); state.grade=null; state.group=null;
   $("done").classList.add("hidden"); $("booking").classList.remove("hidden"); render(); scrollTo(0,0);
 };
 
@@ -386,9 +381,9 @@ const rm=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const onScroll=()=>{ prog.classList.toggle("stuck", prog.getBoundingClientRect().top<=0); if(!rm) document.documentElement.style.setProperty("--sy", scrollY); };
 addEventListener("scroll",onScroll,{passive:true}); onScroll();
 /* ينتقل بنعومة إلى الخطوة التالية بعد اختيار المجموعة */
-function nextStep(){
-  const r=$("s3").getBoundingClientRect();
-  if(r.top>innerHeight*0.55) scrollTo({top:scrollY+r.top-96, behavior:rm?"auto":"smooth"});
+function nextStep(id,th){
+  const r=$(id).getBoundingClientRect();
+  if(r.top>innerHeight*th) scrollTo({top:scrollY+r.top-96, behavior:rm?"auto":"smooth"});
 }
 /* ظهور الأقسام تدريجياً أثناء التمرير + رفع القسم الذي في منتصف الشاشة */
 if("IntersectionObserver" in window && !rm){
@@ -414,7 +409,7 @@ if(!rm && matchMedia("(pointer:fine)").matches){
 /* شريط التقدّم قابل للنقر للتنقل بين الخطوات */
 ["g1","g2","g3"].forEach((id,i)=>{
   const el=$(id); el.setAttribute("role","button"); el.tabIndex=0; el.setAttribute("aria-label","الانتقال إلى الخطوة "+(i+1));
-  const go=()=>$((i===2&&!state.group)?"s2":"s"+(i+1)).scrollIntoView({behavior:rm?"auto":"smooth",block:"start"});
+  const go=()=>{ const t=i===0?"s1":(i===1?(state.grade?"s2":"s1"):(state.group?"s3":(state.grade?"s2":"s1"))); $(t).scrollIntoView({behavior:rm?"auto":"smooth",block:"start"}); };
   el.onclick=go; el.onkeydown=e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); go(); } };
 });
 /* تنسيق رقم الهاتف تلقائياً + الانتقال بين الحقول بزر Enter */
